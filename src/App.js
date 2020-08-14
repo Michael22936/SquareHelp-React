@@ -6,11 +6,13 @@ import Landing from "./components/landing/Landing";
 function App() {
 
   return(
-      < Navbar/>
-  );
-  return (
-  <Landing/>
-  );
+      <div>
+        <Navbar/>
+        <Landing/>
+      </div>
+      )
+
+
 }
 
 export default App;
