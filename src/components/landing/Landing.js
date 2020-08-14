@@ -2,7 +2,10 @@ import React  from 'react';
 
 function Landing() {
     return(
-        <h1>Landing page</h1>
+        <div>
+            <img src={"./logo512.png"} alt="Logo" />
+                <h1>Landing page</h1>
+        </div>
     )
 }
 
