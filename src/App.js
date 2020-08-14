@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css'
-import Navbar from './components/navbar/Navbar'
+import LandingNavbar from './components/navbar/LandingNavbar'
 import Landing from "./components/landing/Landing";
 
 function App() {
 
   return(
       <div>
-        <Navbar/>
+        <LandingNavbar/>
         <Landing/>
       </div>
       )
